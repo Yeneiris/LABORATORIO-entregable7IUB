@@ -48,5 +48,19 @@ textarea{
     justify-content: flex-start;
     gap: 10px;
     margin-top: 15px;
-
+}
+th{
+    padding: 15px;
+    text-align: center;
+    background-color: ghostwhite;
+}
+td{
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
 }
