@@ -44,7 +44,7 @@ textarea{
  }
  .contenedor-botone{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: flex-start;
     gap: 10px;
     margin-top: 15px;
