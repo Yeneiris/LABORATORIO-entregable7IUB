@@ -26,3 +26,19 @@ width: 50%;}
 textarea{
     width: 50%;
 }
+.contenedor-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+ }
+ form{
+    flex: 1;
+    max-width: 45%;
+ }
+ .seccion-tabla{
+    flex: 1;
+    max-width: 45%;
+ }
