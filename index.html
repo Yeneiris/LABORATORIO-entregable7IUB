@@ -23,7 +23,7 @@
         <input type="date">
         <br>
         <label for="telefono">Telefono:</label>
-        <input type="tel">
+        <input type="tel" pattern="[0-9]+" title="Solo se permiten números">
         <br>
         <label for="">Correo:</label>
         <input type="email" placeholder="example@gmail.com">
@@ -39,8 +39,7 @@
         <br>
         <textarea name="msg" id=""></textarea>
         <br>
-       <button>Enviar</button>
-       <button>Borrar</button>
+       <button>Enviar</button> <button type="reset">Borrar</button>
 </form>
        <div class="seccion-tabla">
        <table border="1">
