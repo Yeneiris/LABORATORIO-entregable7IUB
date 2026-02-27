@@ -42,3 +42,11 @@ textarea{
  .seccion-tabla{
     max-width: 45%;
  }
+ .contenedor-botone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+
+}
