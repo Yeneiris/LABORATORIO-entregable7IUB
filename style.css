@@ -28,15 +28,16 @@ textarea{
 }
 .contenedor-principal{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
+    gap: 50px;
     padding: 20px;
 
  }
  form{
     display:flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
  }
  .seccion-tabla{
     max-width: 45%;
